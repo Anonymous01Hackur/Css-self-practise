@@ -1,0 +1,49 @@
+
+li{
+    font-weight: 800;
+}
+
+/* Using class selector */
+
+.one{
+    color: #DD4B25;
+}
+.two{
+    color: #254BDD;
+}
+.three{
+    color: #EFD81D;
+}
+.four{
+    color: #5ED3F3;
+}
+.five{
+    color: #0EA5E9;
+}
+
+/* Using id selector  */
+#one{
+    font-size: 32px;
+}
+#two{
+    font-size: 32px;
+}
+#three{
+    font-size: 32px;
+}
+#four{
+    font-size: 32px;
+}
+#five{
+    font-size: 32px;
+}
+
+ /* esari ul vitra ko one class lai esari add garera style dina milxa */
+ul .one:hover{
+    background-color: #0EA5E9;
+}
+
+/* esari hamilai hover dina milxa hai  */
+ul .two:hover{
+    background-color: slateblue;
+}
