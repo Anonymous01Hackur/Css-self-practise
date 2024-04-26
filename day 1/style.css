@@ -1,0 +1,44 @@
+/* kunai ni gap nha dinaa lai yho section used hunxa */
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+.Hacking{
+    background-color: white;    
+}
+.Hacking a{
+    color: black;
+    font-size: 25px;
+    background-color: white;
+    padding: 20px;
+    
+
+    }
+
+    .h1s{
+        color: white;
+        background-color: black;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .one{
+        background-color: blue;
+    }
+    .form1{
+        margin-top: 50px;
+        background-color: brown;
+        height: 400px;
+        
+    }
+    .h2a{
+        background-color: white;
+        color: black;
+        text-align: center;
+        padding: 20px;
+        font-size: x-large;
+        font-weight: bold;
+    }
