@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 3 ( cascading specifity and inheritance )</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="headerone"> TYPES = CASCADE </h1>
+    <p class="pcolor">
+        Cascade mha k hunxa vanda ni jati talaa value janxa teslai html lai priority dinxa ani select hunxa automatic.
+    </p>
+<!-- Yho chai cascade ko example ho -->
+    <main>
+        <h2>Some examples of cascading :</h2>
+        <ul>
+            <li class="one">HACKER-1</li>
+            <li class="two">HACKER-2</li>
+            <li class="three">HACKER-3</li>
+            <li class="four">HACKER-4</li>
+            <li class="Five">HACKER-5</li>
+        </ul>
+    </main>
+
+<hr><hr>
+<br><br>
+
+    <h1 class="headertwo"> TYPES = specificity </h1>
+    <p class="ppcolor">
+        specificity mha k hunxa vanda ni its give more prioroty to ID ani balw class lai then pseudo class lai.
+    </p>
+
+    <!-- Yho chai specificity ko example ho -->
+    <main>
+        <h2>Some examples of specificity :</h2>
+        <ul>
+            <li id="onee" class="onee">HACKER-1</li>
+            <li id="twoo" class="twoo">HACKER-2</li>
+            <li id="threee" class="threee">HACKER-3</li>
+            <li id="fourr" class="fourr">HACKER-4</li>
+            <li id="Fivee" class="Fivee">HACKER-5</li>
+        </ul>
+    </main>
+
+    <hr><hr>
+<br><br>
+
+    <h1 class="headerthree"> TYPES = inheritance </h1>
+    <p class="pppcolor">
+        inheritance mha k hunxa vanda ni parents class mha deko font style sab child class mha ni apply hunxa.
+    </p>
+<!-- Yho chai inheritance ko example ho -->
+    <main>
+        <h2>Some examples of inheritance :</h2>
+        <ul class="inheritanceone">
+            <li class="one">HACKER-1</li>
+            <li class="two">HACKER-2</li>
+            <li class="three">HACKER-3</li>
+            <li class="four">HACKER-4</li>
+            <li class="Five">HACKER-5</li>
+        </ul>
+    </main>
+    
+</body>
+</html>

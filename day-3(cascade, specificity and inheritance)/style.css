@@ -1,0 +1,118 @@
+
+
+body{
+    background-color: antiquewhite;
+}
+
+/* Cascading example */
+
+/* h1 lai style gareko hai */
+.headerone{
+    text-align: center;
+    font-weight: 800px;
+    color: rebeccapurple;
+    background-color: aqua;
+    padding: 10px;
+}
+
+/* abo chai h1 ko talaa ko paragraph lai style garna lai used vayeko hai */
+
+.pcolor{
+    font-size: 25px;
+    background-color: blueviolet;
+    padding: 10px;
+    font-style: italic;
+    color: white;
+}
+/* 1 yho chai suru mha style dida hai rw arko estai value deda second mha ako lai priority dinxa */
+
+li{
+    background-color: brown;
+    color: aqua;
+}
+
+/* 2 yho chai suru mha style dida hai rw arko estai value deda third mha ako lai priority dinxa */
+li{
+    background-color: white;
+    color: black;
+}
+
+/* 3 eslai nai cascading lai priority dinxa jati tala janxa teti priority dinxa hai */
+li{
+    background-color: grey;
+    color: greenyellow;
+}
+
+ 
+
+/* specificity example */
+
+/* h1 lai style gareko hai */
+.headertwo{
+    text-align: center;
+    font-weight: 800px;
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+
+/* abo chai h1 ko talaa ko paragraph lai style garna lai used vayeko hai */
+
+.ppcolor{
+    font-size: 25px;
+    background-color: green;
+    padding: 10px;
+    font-style: italic;
+    color: white;
+}
+/* esma chai k hunxa vanda suru mha class lai priority dinxa ani id halna sath id lai priority dinxa suru mha*/
+
+.onee{
+    color: blue;
+    background-color: yellow;
+}
+#onee{
+    color: white;
+    background-color: black;
+}
+
+
+
+
+/* inheritance  example */
+
+/* h1 lai style gareko hai */
+.headerthree{
+    text-align: center;
+    font-weight: 800px;
+    color: white;
+    background-color: red;
+    padding: 10px;
+}
+
+/* abo chai h1 ko talaa ko paragraph lai style garna lai used vayeko hai */
+
+.pppcolor{
+    font-size: 25px;
+    background-color: skyblue;
+    padding: 10px;
+    font-style: italic;
+    color: black;
+}
+/* esma chai k hunxa vanda suru mha class lai priority dinxa ani id halna sath id lai priority dinxa suru mha*/
+
+.onee{
+    color: blue;
+    background-color: yellow;
+}
+#onee{
+    color: white;
+    background-color: black; n 
+}
+
+/* yho chai inheritance ko example ho hai esma k hunxa vanda parnets class chai inheritanceone ho ani esma deko font style sab child mha ni apply hunxa  */
+.inheritanceone {
+    font-weight: 800px;
+    font-size: 40px;
+    font-style: italic;
+}
