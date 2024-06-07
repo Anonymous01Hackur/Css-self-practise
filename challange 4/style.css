@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* first ho hai esma chai first container ho */
+.container{
+    background-color: rgb(35,63,72);
+    width: 100%;
+    max-width: 775px;
+    margin: 0 auto;
+    padding: 5em;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.first-container ,h3 ,p{
+        width: 100%;
+        margin-bottom: 16px;
+        padding: 0.5em;
+}
+
+.first-container-btn{
+    background-color: #38CFD9;
+    border-radius: 20px;
+    padding:  10px 20px;
+    text-decoration: none;
+    border: none;
+    color: #3A3A3A;
+    font-weight: 600;
+}
+
+img {
+    max-width: 100%; /*afno size vanda thulo hunaa hai*/
+}
+.solarimage{
+    align-self: flex-start;     /*eslai chai flex ko arko side mha jada top mha tasinxa hai*/
+    margin-top: 15px;
+}
+
+/* first ho hai esma chai first container ho */
+
+/* Second ho hai esma chai first container ho */
+
+.main-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 5em;
+    width: 100%;
+    max-width: 775px;
+    /* max-height: 500px; */
+    margin: 0 auto;
+    border: 1px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.row-container{
+    color: black;
+    width: 75%;
+    padding: 10px;
+
+}
+
+.row-container h2{
+    font-weight: 600;
+    color: rgb(10,99,115);
+    margin-bottom: 10px;
+}
+
+.row-container p{
+    width: 100%;
+}
+
+
+.column-container{
+    margin-left: 10px;
+    text-align: center;
+    width: 40%;
+    background-color: rgb(10,99,115);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.column-container h3{
+    font-weight: 800;
+    text-align: center;
+    font-size: 1em;
+}
+
+.column-container p{
+    width: 80%;
+    font-size: 13px;
+}
