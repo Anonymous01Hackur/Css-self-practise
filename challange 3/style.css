@@ -1,0 +1,38 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.Main-container{
+  max-width: 750px;
+  width: 80%;
+  margin: 0 auto; 
+  padding: 2em;
+}
+.hero{
+  padding: 5em;
+  background-color: rgb(35, 66, 74);
+  color: white;
+  
+}
+H1{
+  width: 65%;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+p{
+  width: 65%;
+}
+.Main-container ,H1 ,p{
+  margin-bottom: 1em;
+}
+
+.btn{
+  color: rgb(7, 42, 45);
+  padding: 0.5rem 2rem;
+  border-radius: 15em;
+  background-color: rgb(56, 207, 217);
+  font-weight: bold;
+  border: none;
+  text-transform: uppercase;
+}
